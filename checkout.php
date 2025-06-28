@@ -1,5 +1,5 @@
 <?php
-// Place order
+// Place order ok
 if (isset($_POST['checkout'])) {
     $name = $_POST['name'];
     $address = $_POST['address'];
