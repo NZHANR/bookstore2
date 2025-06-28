@@ -1,0 +1,14 @@
+name: Custom Semgrep Scan
+
+on: [push, pull_request]
+
+jobs:
+  semgrep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Semgrep with Custom Rule
+        uses: returntocorp/semgrep-action@v1
+        with:
+          config: ./semgrep_rule.yaml
