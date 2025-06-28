@@ -1,5 +1,5 @@
 <?php
-// List all books
+// List all books ok
 $sql = "SELECT * FROM books";
 $result = $conn->query($sql);
 
