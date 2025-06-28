@@ -1,5 +1,5 @@
 <?php
-// Connect to DB
+// Connect to database
 $conn = new mysqli('localhost', 'root', '', 'bookstore');
 
 // Register User
