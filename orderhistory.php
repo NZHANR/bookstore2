@@ -1,5 +1,5 @@
 <?php
-// View order by user_id
+// View order by user
 if (isset($_GET['user_id'])) {
     $user_id = $_GET['user_id'];
 
