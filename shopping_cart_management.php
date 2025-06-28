@@ -1,5 +1,5 @@
 <?php
-// Add to Cart
+// Add to cart
 if (isset($_GET['add'])) {
     $book_id = $_GET['add'];
     // Directly using book_id without validation
