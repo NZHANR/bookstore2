@@ -1,5 +1,5 @@
 <?php
-// List all books (no output encoding)
+// List all books
 $sql = "SELECT * FROM books";
 $result = $conn->query($sql);
 
